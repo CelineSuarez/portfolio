@@ -24,20 +24,38 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Me</h2>
                 <p>Born in Arizona, I was raised by two Italian plumbers and was taught diligence by a bounty hunter named Samus. I decided to ride a dinosaur to Texas and learn how to program at a coding bootcamp. </p>
-                <p>This is another paragraph.  Did you expect something else here?</p>
+                <p>I absorbed PHP, HTML, CSS, Javascript, Git, Laravel and a little bit of Angular.js.</p>
+                <a href="#projects" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i></a>
                 
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <!-- Project Section -->
+    <section id="projects" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
+                    <h2>Projects</h2>
+                    <div id="myCarousel" class="carousel slide">
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        <div class="active item">{{ HTML::image('img/tweetsweep.jpg') }}</div>
+                        <div class="item">{{ HTML::image('img/Suarezbrokeragehome.jpg') }}</div>
+                        <div class="item">{{ HTML::image('img/senzubeans.jpg') }}</div>
+                      </div>
+                      <!-- Carousel nav -->
+                      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    </div>
                     <p>You can see a preview of my projects.  Click on any picture.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    
                 </div>
             </div>
         </div>
@@ -53,14 +71,16 @@
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://linkedin.com/in/CelineSuarez" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i>Linked In</span></a>
                     </li>
+                    
                     <li>
                         <a href="https://github.com/Celinesuarez" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com" class="btn btn-default btn-lg"><i class="fa fa-linked-in fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://twitter.com/CelinetheFeline" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
+                    
                 </ul>
             </div>
         </div>

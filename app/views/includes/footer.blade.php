@@ -2,7 +2,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; Celine Suarez 2015</p>
         </div>
     </footer>
       <!-- jQuery -->
