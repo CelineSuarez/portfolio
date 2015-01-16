@@ -1,3 +1,6 @@
+
+This is my read me file.  My portfolio is a big work in progress, and I'll be working on it as much as I can.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
