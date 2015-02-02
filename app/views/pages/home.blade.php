@@ -54,7 +54,7 @@
                       <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
                     </div>
-                    <p>You can see a preview of my projects.  Click on any picture.</p>
+                    <p>You can see a preview of my projects.</p>
                     
                 </div>
             </div>
